@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__reed_solomon.o
+[PROJECT FILES]
+D:\Senahk\Work\Prog\Ada\polynomes\default.gpr
+20180108212752
+[BOUND OBJECT FILES]
+D:\Senahk\Work\Prog\Ada\polynomes\gestion_fraction.o
+D:\Senahk\Work\Prog\Ada\polynomes\gestion_polynomes.o
+D:\Senahk\Work\Prog\Ada\polynomes\reed_solomon.o
+[GENERATED SOURCE FILES]
+b__reed_solomon.ads
+b__reed_solomon.adb
+b__reed_solomon.ali
+[RESULTING OPTIONS]
+-LD:\Senahk\Work\Prog\Ada\polynomes\
+-LD:\Senahk\Work\Prog\Ada\polynomes\
+-LC:/program files (x86)/gnat/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/program files (x86)/gnat/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
