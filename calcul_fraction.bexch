@@ -1,16 +1,15 @@
 [GENERATED OBJECT FILE]
-b__reed_solomon.o
+b__calcul_fraction.o
 [PROJECT FILES]
 D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr
 20180109124300
 [BOUND OBJECT FILES]
 D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.o
-D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_polynomes.o
-D:\Senahk\Work\Prog\Ada\ReedSolomon\reed_solomon.o
+D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.o
 [GENERATED SOURCE FILES]
-b__reed_solomon.ads
-b__reed_solomon.adb
-b__reed_solomon.ali
+b__calcul_fraction.ads
+b__calcul_fraction.adb
+b__calcul_fraction.ali
 [RESULTING OPTIONS]
 -LD:\Senahk\Work\Prog\Ada\ReedSolomon\
 -LD:\Senahk\Work\Prog\Ada\ReedSolomon\

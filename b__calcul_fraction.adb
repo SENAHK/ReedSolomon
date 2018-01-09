@@ -1,7 +1,7 @@
 pragma Warnings (Off);
 pragma Ada_95;
-pragma Source_File_Name (ada_main, Spec_File_Name => "b__reed_solomon.ads");
-pragma Source_File_Name (ada_main, Body_File_Name => "b__reed_solomon.adb");
+pragma Source_File_Name (ada_main, Spec_File_Name => "b__calcul_fraction.ads");
+pragma Source_File_Name (ada_main, Body_File_Name => "b__calcul_fraction.adb");
 pragma Suppress (Overflow_Check);
 with Ada.Exceptions;
 
@@ -21,23 +21,14 @@ package body ada_main is
    E076 : Short_Integer; pragma Import (Ada, E076, "system__object_reader_E");
    E043 : Short_Integer; pragma Import (Ada, E043, "system__dwarf_lines_E");
    E035 : Short_Integer; pragma Import (Ada, E035, "system__traceback__symbolic_E");
-   E139 : Short_Integer; pragma Import (Ada, E139, "ada__numerics_E");
-   E102 : Short_Integer; pragma Import (Ada, E102, "ada__tags_E");
-   E100 : Short_Integer; pragma Import (Ada, E100, "ada__streams_E");
-   E122 : Short_Integer; pragma Import (Ada, E122, "system__file_control_block_E");
-   E110 : Short_Integer; pragma Import (Ada, E110, "system__finalization_root_E");
-   E098 : Short_Integer; pragma Import (Ada, E098, "ada__finalization_E");
-   E121 : Short_Integer; pragma Import (Ada, E121, "system__file_io_E");
-   E175 : Short_Integer; pragma Import (Ada, E175, "system__storage_pools_E");
-   E171 : Short_Integer; pragma Import (Ada, E171, "system__finalization_masters_E");
-   E169 : Short_Integer; pragma Import (Ada, E169, "system__storage_pools__subpools_E");
-   E161 : Short_Integer; pragma Import (Ada, E161, "ada__strings__unbounded_E");
-   E147 : Short_Integer; pragma Import (Ada, E147, "ada__calendar_E");
-   E117 : Short_Integer; pragma Import (Ada, E117, "ada__text_io_E");
-   E181 : Short_Integer; pragma Import (Ada, E181, "system__pool_global_E");
-   E145 : Short_Integer; pragma Import (Ada, E145, "system__random_seed_E");
-   E154 : Short_Integer; pragma Import (Ada, E154, "gestion_fraction_E");
-   E159 : Short_Integer; pragma Import (Ada, E159, "gestion_polynomes_E");
+   E103 : Short_Integer; pragma Import (Ada, E103, "ada__tags_E");
+   E101 : Short_Integer; pragma Import (Ada, E101, "ada__streams_E");
+   E117 : Short_Integer; pragma Import (Ada, E117, "system__file_control_block_E");
+   E116 : Short_Integer; pragma Import (Ada, E116, "system__finalization_root_E");
+   E114 : Short_Integer; pragma Import (Ada, E114, "ada__finalization_E");
+   E113 : Short_Integer; pragma Import (Ada, E113, "system__file_io_E");
+   E099 : Short_Integer; pragma Import (Ada, E099, "ada__text_io_E");
+   E135 : Short_Integer; pragma Import (Ada, E135, "gestion_fraction_E");
 
    Local_Priority_Specific_Dispatching : constant String := "";
    Local_Interrupt_States : constant String := "";
@@ -46,47 +37,19 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E181 := E181 - 1;
+      E099 := E099 - 1;
       declare
          procedure F1;
-         pragma Import (Ada, F1, "system__pool_global__finalize_spec");
+         pragma Import (Ada, F1, "ada__text_io__finalize_spec");
       begin
          F1;
       end;
-      E117 := E117 - 1;
       declare
          procedure F2;
-         pragma Import (Ada, F2, "ada__text_io__finalize_spec");
+         pragma Import (Ada, F2, "system__file_io__finalize_body");
       begin
+         E113 := E113 - 1;
          F2;
-      end;
-      E161 := E161 - 1;
-      declare
-         procedure F3;
-         pragma Import (Ada, F3, "ada__strings__unbounded__finalize_spec");
-      begin
-         F3;
-      end;
-      E169 := E169 - 1;
-      declare
-         procedure F4;
-         pragma Import (Ada, F4, "system__storage_pools__subpools__finalize_spec");
-      begin
-         F4;
-      end;
-      E171 := E171 - 1;
-      declare
-         procedure F5;
-         pragma Import (Ada, F5, "system__finalization_masters__finalize_spec");
-      begin
-         F5;
-      end;
-      declare
-         procedure F6;
-         pragma Import (Ada, F6, "system__file_io__finalize_body");
-      begin
-         E121 := E121 - 1;
-         F6;
       end;
       declare
          procedure Reraise_Library_Exception_If_Any;
@@ -208,47 +171,28 @@ package body ada_main is
       System.Traceback.Symbolic'Elab_Body;
       E035 := E035 + 1;
       E076 := E076 + 1;
-      Ada.Numerics'Elab_Spec;
-      E139 := E139 + 1;
       Ada.Tags'Elab_Spec;
       Ada.Tags'Elab_Body;
-      E102 := E102 + 1;
+      E103 := E103 + 1;
       Ada.Streams'Elab_Spec;
-      E100 := E100 + 1;
+      E101 := E101 + 1;
       System.File_Control_Block'Elab_Spec;
-      E122 := E122 + 1;
+      E117 := E117 + 1;
       System.Finalization_Root'Elab_Spec;
-      E110 := E110 + 1;
+      E116 := E116 + 1;
       Ada.Finalization'Elab_Spec;
-      E098 := E098 + 1;
+      E114 := E114 + 1;
       System.File_Io'Elab_Body;
-      E121 := E121 + 1;
-      System.Storage_Pools'Elab_Spec;
-      E175 := E175 + 1;
-      System.Finalization_Masters'Elab_Spec;
-      System.Finalization_Masters'Elab_Body;
-      E171 := E171 + 1;
-      System.Storage_Pools.Subpools'Elab_Spec;
-      E169 := E169 + 1;
-      Ada.Strings.Unbounded'Elab_Spec;
-      E161 := E161 + 1;
-      Ada.Calendar'Elab_Spec;
-      Ada.Calendar'Elab_Body;
-      E147 := E147 + 1;
+      E113 := E113 + 1;
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
-      E117 := E117 + 1;
-      System.Pool_Global'Elab_Spec;
-      E181 := E181 + 1;
-      System.Random_Seed'Elab_Body;
-      E145 := E145 + 1;
+      E099 := E099 + 1;
       gestion_fraction'elab_spec;
-      E154 := E154 + 1;
-      E159 := E159 + 1;
+      E135 := E135 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
-   pragma Import (Ada, Ada_Main_Program, "_ada_reed_solomon");
+   pragma Import (Ada, Ada_Main_Program, "_ada_calcul_fraction");
 
    function main
      (argc : Integer;
@@ -281,8 +225,7 @@ package body ada_main is
 
 --  BEGIN Object file/option list
    --   D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.o
-   --   D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_polynomes.o
-   --   D:\Senahk\Work\Prog\Ada\ReedSolomon\reed_solomon.o
+   --   D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.o
    --   -LD:\Senahk\Work\Prog\Ada\ReedSolomon\
    --   -LD:\Senahk\Work\Prog\Ada\ReedSolomon\
    --   -LC:/program files (x86)/gnat/lib/gcc/i686-pc-mingw32/6.3.1/adalib/

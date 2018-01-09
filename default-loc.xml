@@ -1,10 +1,20 @@
 <?xml version="1.0"?>
-<Locations>
-  <Project>
-    <vfs_file>D:\Senahk\Work\Prog\Ada\polynomes\default.gpr</vfs_file>
+<Locations >
+  <Project >
+    <file_marker column=" 31" line=" 402" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\reed_solomon.adb</vfs_file>
+    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>D:\Senahk\Work\Prog\Ada\polynomes\reed_solomon.adb</vfs_file>
+      <vfs_file>D:\Senahk\Work\Ada\michael_ramusi\calcul_fraction.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\Senahk\Work\Prog\Ada\polynomes\default.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\Senahk\Work\Prog\Ada\polynomes\reed_solomon.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

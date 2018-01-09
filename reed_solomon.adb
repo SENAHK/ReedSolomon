@@ -18,7 +18,7 @@ procedure reed_solomon is
    -- K is the size of the list of bytes
    K: constant Integer := 5;
    -- N is the aditionnal byte to append to the list of bytes
-   N: constant Integer := 2;
+   N: constant Integer := 3;
    
    -- Arbitrary range of error
    --(by definition, reed solomon can't correct more than N/2 errors)

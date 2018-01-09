@@ -34,7 +34,7 @@ RV NO_IMPLICIT_ALIASING
 RV NO_IMPLICIT_LOOPS
 RV SPARK_05
 
-U reed_solomon%b	reed_solomon.adb	d87e1830 NE OO SU IL
+U reed_solomon%b	reed_solomon.adb	fff9efb1 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.command_line%s	a-comlin.adb		a-comlin.ali
 W ada.containers%s	a-contai.ads		a-contai.ali
@@ -102,7 +102,7 @@ D gestion_fraction.ads	20171218111914 33e3c268 gestion_fraction%s
 D gestion_polynomes.ads	20171218111914 64e8767c gestion_polynomes%s
 D interfac.ads		20170516105950 5ab55268 interfaces%s
 D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
-D reed_solomon.adb	20171219113322 5db2713a reed_solomon%b
+D reed_solomon.adb	20180109130136 7a3586bb reed_solomon%b
 D system.ads		20170516105954 32a08138 system%s
 D s-addima.ads		20170516105950 a1ec9d3a system.address_image%s
 D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s

@@ -1,0 +1,118 @@
+V "GNAT Lib v2017"
+M P W=b
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U calcul_fraction%b	calcul_fraction.adb	89afc677 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gestion_fraction%s	gestion_fraction.adb	gestion_fraction.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W system.val_real%s	s-valrea.adb		s-valrea.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-comlin.ads		20170516105952 4aa66568 ada.command_line%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D calcul_fraction.adb	20171218194040 2713204b calcul_fraction%b
+D gestion_fraction.ads	20171218111914 33e3c268 gestion_fraction%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-valint.ads		20170516105952 48a52a3f system.val_int%s
+D s-valrea.ads		20170516105954 fe297711 system.val_real%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D text_io.ads		20170516105954 21b2c898 text_io%s
+X 1 ada.ads
+16K9*Ada 20e8 11|9r6 9r31 10r6 10r28
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 11|10w10 10r32
+39V13*Argument_Count{natural} 11|35s10 37s13 37s35 41s13 54s13 56s25 89s13
+. 90s25
+52V13*Argument{string} 11|43s16 43s40 44s38 45s38 57s33 58s31 66s33 67s29
+. 72s35 73s55 73s83 75s35 76s55 76s83 91s33 92s31 102s51 102s79 103s51 103s79
+. 105s16 106s28
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 11|9w10 9r35
+X 8 a-textio.ads
+242U14*Put 11|122s27 123s32 124s32 125s28
+X 9 a-tiinio.ads
+66U14*Put 11|47s19[4|18]
+X 11 calcul_fraction.adb
+12U11*calcul_fraction 12b11 127l5 127t20
+14V13 IsNumeric{boolean} 14b13 14>24 22l8 22t17 57s23 66s23 67s19 91s23
+14a24 chaine{string} 17r25
+15f7 T{float} 17m7
+24X4 NO_ARGUMENT 36r16 122r12
+24X17 MISSING_ARGUMENT 38r16 123r12
+24X35 INVALID_ARGUMENT 65r22 68r22 84r37 99r22 124r12
+26r4 F1{12|7R9} 44m20 46r19 47r28 73m37 76m37 79r33 80r33 81r33 82r33 83r33
+. 102m34 110r33 111r33 112r33 113r33
+27r4 F2{12|7R9} 45m20 46r39 47r36 103m34 110r38 111r38 112r38 113r38
+28i4 N{integer} 72m16 75m16 79r50 80r50 81r50 82r37 83r38
+29e4 Operator{character} 58m19 78r18 92m19 106m16 109r18
+31i4 OperatorPos{natural} 59m19 64r16 64r35 64r54 66r42 67r38 71r16 93m19
+. 98r16
+56i17 i{integer} 57r42 58r40 59r34
+90i17 i{integer} 91r42 92r40 93r34
+X 12 gestion_fraction.ads
+6K9*gestion_fraction 11|7w6 7r28 73r16 76r16 102r13 103r13 12|30e21
+7R9*T_Fraction 11|26r9 27r9 79r38 80r38 81r38 12|10e14
+8i7*num{integer} 11|46r22 46r42 47r31 47r39
+12X4*DIV_PAR_ZERO 11|125r12
+14U14*Get 11|44s16 45s16 73s33 76s33 102s30 103s30
+15U14*Put 11|79s28 80s28 81s28 82s28 83s28 110s28 111s28 112s28 113s28
+17V14*"+"{7R9} 11|79s36 110s36
+18V14*"-"{7R9} 11|80s36 111s36
+19V14*"*"{7R9} 11|81s36 112s36
+22V14*"/"{7R9} 11|113s36
+24V14*"/"{7R9} 11|83s36
+25V14*"**"{7R9} 11|82s35
+28V13*PGCD{positive} 11|47s23
+X 30 text_io.ads
+24K9*Text_IO=24:29 11|8w6 8r19
+

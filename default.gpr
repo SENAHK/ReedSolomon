@@ -1,10 +1,10 @@
 project Default is
 
+   for Main use ("calcul_fraction.adb", "calcul_polynomes.adb", "reed_solomon.adb");
+
    package Compiler is
       for Switches ("ada") use ("-g", "-O2");
    end Compiler;
-
-   for Main use ("reed_solomon.adb");
 
 end Default;
 
