@@ -1,13 +1,102 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 31" line=" 402" >
+  <Project>
+    <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_file>
+    <file_marker column=" 71" line=" 184" >
       <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
       <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\reed_solomon.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_polynomes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_polynomes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>D:\Senahk\Work\Ada\michael_ramusi\calcul_fraction.adb</vfs_file>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\DynamicLists\gestion_pile.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 24" >
+      <vfs_project />
+      <vfs_file>D:\Senahk\Work\Prog\Ada\DynamicLists\gestion_pile.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_polynomes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_polynomes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 13" >
+      <vfs_project />
+      <vfs_file>D:\Senahk\Work\Prog\Ada\DynamicLists\gestion_pile.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\Senahk\Work\Prog\Ada\DynamicLists\gestion_pile.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 35" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 35" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 35" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 34" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 21" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 21" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 44" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 14" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 44" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\calcul_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 94" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_fraction.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>D:\Senahk\Work\Prog\Ada\ReedSolomon\default.gpr</vfs_project>
+      <vfs_file>D:\Senahk\Work\Prog\Ada\ReedSolomon\gestion_polynomes.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
